@@ -33,6 +33,39 @@ const Homepage = () => {
 			address:"1115 Fennell Ave East, Hamilton",
 			description:"Show starts at 9pm",
 			image:"/assets/d9a7793ceb95e807f941.jpg",
+			date: "2023-05-13"
+		},
+		{
+			heading: "the South Shore Bar & Grill",
+			subHeading: "South Shore Bar & Grill",
+			phone: "(416) 704-1820",
+			address: "264 Browns Line, Toronto, ON, Canada, Ontario",
+			description: "Show starts at 8pm",
+			image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
+			date: "2023-02-24"
+		},
+		{
+			heading:"The St. George Pub",
+			subHeading:"The St. George Pub, No cover",
+			phone:"(905) 873-0555",
+			address:"7 Main Street North, Georgetown",
+			description:"Show starts at 9pm",
+			image: "/assets/053b00df983972fdb6c4.jpg",
+			date: "2023-02-10"
+		},
+		{
+			heading:"EFC Ontario Gala",
+			subHeading:"Private Event",
+			image:"/assets/c9a21831e5b732ed8768.png",
+			date: "2023-01-27"
+		},
+		{
+			heading:"Honest Lawyer (Hamilton)",
+			subHeading:"Honest Lawyer (Hamilton), No cover",
+			phone:"(289) 674-1080",
+			address:"1115 Fennell Ave East, Hamilton",
+			description:"Show starts at 9pm",
+			image:"/assets/d9a7793ceb95e807f941.jpg",
 			date: "2023-03-11"
 		},
 		{
@@ -42,7 +75,7 @@ const Homepage = () => {
 			address: "Derry Road West, Unit 24, Mississauga",
 			description: "Show starts at 9pm",
 			image: "/assets/fe61f9398b57c26af9e1.jpg",
-			date: "2022-11-26"
+			date: "2022-11-28"
 		},
 		{
 			heading: "the South Shore Bar & Grill",
@@ -254,12 +287,17 @@ const Homepage = () => {
 		},
 	];
 
+	var current = new Date(); //'Mar 11 2015' current.getTime() = 1426060964567
+	var previousDay = new Date(current.getTime() - 86400000);
+
 	let upcomingGigs = gigs.filter((newVal) => {
-		return new Date(newVal.date) >= Date.now() ;
+		var gigDate = new Date(newVal.date).getTime() + 86400000;
+		return gigDate >= previousDay ;
 	});
 
 	let recentGigs = gigs.filter((newVal) => {
-		return new Date(newVal.date) < Date.now() ;
+		var gigDate = new Date(newVal.date).getTime() + 86400000;
+		return gigDate < previousDay ;
 	});
 
 	const [next, setNext] = useState(imagePerRow);
@@ -274,6 +312,7 @@ const Homepage = () => {
 				{upcomingGigs.sort((a,b) => new Date(a.date) - new Date(b.date)).map((gig, index) => {
 					return (
 						<div key={index}>
+							{index === 0 && <h2 className="text-center">Upcoming Gigs</h2>}
 							<PromoCard heading={gig.heading}
 									   subHeading={gig.subHeading}
 									   phone={gig.phone}

@@ -1,9 +1,7 @@
 .afg-promo-card {
-
   img {
     height: 21rem;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
   }
-
 }

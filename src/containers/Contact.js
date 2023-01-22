@@ -4,7 +4,6 @@ import '../styles/index.scss';
 
 import Layout from "./Layout";
 import HeroBanner from "../components/herobanner/HeroBanner";
-
 import AFLogo from "../assets/YouTube-Banner-2020-blurred-logo-only-top.png";
 
 const Contact = () => {
