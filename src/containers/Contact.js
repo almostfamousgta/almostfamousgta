@@ -11,9 +11,9 @@ const Contact = () => {
         <>
             <Layout>
                 <HeroBanner heading="Contact Us"/>
-                <div className="container">
+                <div className="container px-0">
                     <section className="container text-center py-5 my-5 d-flex flex-column align-items-center">
-                        <img src={AFLogo} alt="Almost Famous logo image with star" className="col-12 col-sm-6 py-5 mt-5" />
+                        <img src={AFLogo} alt="Almost Famous logo image with star" width="510" height="121" className="col-12 col-sm-6 py-5 mt-5" />
 
                         <div className=" py-5 my-5">
                             <h3 className="afg-h2">Contact us:</h3>

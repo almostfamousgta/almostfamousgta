@@ -30,7 +30,7 @@ class Header extends React.Component {
                 <nav className="afg-header__nav container">
                     <div className="afg-header__logo">
                         <Link to="/" aria-label="Almost Famous GTA homepage">
-                            <img src={Logo} alt="Almost Famous GTA band logo" />
+                            <img src={Logo} width="230" height="54" alt="Almost Famous GTA band logo" />
                         </Link>
                     </div>
                     <button onClick={this.handleClick} id="afg-menuBtn" type="button" className={"afg-header__menu-btn" + (this.state.menuOpen ? ' active' : '')} aria-expanded="false">
