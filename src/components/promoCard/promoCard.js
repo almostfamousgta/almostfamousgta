@@ -8,9 +8,9 @@ const promoCard = props => {
             <div className="col-12 col-sm-4 px-0 pr-sm-5">
                 <picture>
                     {(props.image ?
-                        <img src={ props.image } alt="" className="w-100 mb-4 mb-sm-0" />
+                        <img src={ props.image } alt="" width="340" height="210" className="w-100 mb-4 mb-sm-0" />
                         :
-                        <img src={StageImage} alt="Almost Famous GTA band logo" className="w-100 mb-4 mb-sm-0" />
+                        <img src={StageImage} alt="Almost Famous GTA band logo" width="340" height="210" className="w-100 mb-4 mb-sm-0" />
                     )}
                 </picture>
             </div>

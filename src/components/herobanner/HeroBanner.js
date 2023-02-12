@@ -6,7 +6,7 @@ const HeroBanner = props => {
         <div>
             <section className="afg-hero-banner__wrapper position-relative">
                 <div className="afg-hero-banner">
-                    <img src={StageImage} alt="Almost Famous GTA band logo" className="w-100" />
+                    <img src={StageImage} alt="Almost Famous GTA band logo" width="553" height="311" className="w-100" />
                     <div className="container py-5 px-2">
                         <h1 className="text-center position-relative">{ props.heading }</h1>
                     </div>
