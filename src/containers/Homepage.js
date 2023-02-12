@@ -312,7 +312,6 @@ const Homepage = () => {
 				{upcomingGigs.sort((a,b) => new Date(a.date) - new Date(b.date)).map((gig, index) => {
 					return (
 						<div key={index}>
-							{index === 0 && <h2 className="text-center">Upcoming Gigs</h2>}
 							<PromoCard heading={gig.heading}
 									   subHeading={gig.subHeading}
 									   phone={gig.phone}

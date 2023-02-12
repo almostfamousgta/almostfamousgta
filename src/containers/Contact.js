@@ -14,14 +14,12 @@ const Contact = () => {
                 <div className="container px-0">
                     <section className="container text-center py-5 my-5 d-flex flex-column align-items-center">
                         <img src={AFLogo} alt="Almost Famous logo image with star" width="510" height="121" className="col-12 col-sm-6 py-5 mt-5" />
-
                         <div className=" py-5 my-5">
                             <h3 className="afg-h2">Contact us:</h3>
                             <p>Email: <a href="mailto:almostfamousgta@gmail.com" target="_blank">almostfamousgta@gmail.com</a></p>
                             <p>Twitter: <a href="https://twitter.com/almostfamousGTA" target="_blank">@almostfamousgta</a></p>
                             <p>Links to ALL Links:  <a href="https://linktr.ee/almostfamousgta" target="_blank">linktr.ee/almostfamousgta</a></p>
                         </div>
-
                     </section>
                 </div>
             </Layout>
