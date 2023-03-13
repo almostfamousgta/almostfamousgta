@@ -26,6 +26,15 @@ const imagePerRow = 8;
 
 const Homepage = () => {
 	const gigs = [
+    {
+      heading:"The St. George Pub",
+      subHeading:"The St. George Pub, No cover",
+      phone:"(905) 873-0555",
+      address:"7 Main Street North, Georgetown",
+      description:"Show starts at 9pm",
+      image: "/assets/053b00df983972fdb6c4.jpg",
+      date: "2023-04-14"
+    },
 		{
 			heading:"Honest Lawyer (Hamilton)",
 			subHeading:"Honest Lawyer (Hamilton), No cover",
