@@ -10,7 +10,7 @@ import AFLogo from "../assets/YouTube-Banner-2020-blurred-logo-only-top.png";
 import YTLogo from "../assets/yt-logo.png";
 import RichImage from "../assets/Rich-2.jpg";
 import Richard2Image from "../assets/Richard_web.jpg";
-import MikeImage from "../assets/Mike.jpg";
+import JimImage from "../assets/JimLeonard_web.jpg";
 import PaulImage from "../assets/paul.png";
 import DonnImage from "../assets/Donn-D.jpg";
 
@@ -61,8 +61,8 @@ const About = () => {
                         <h3 className="text-center mt-4">~ Drums ~ <br/> Donn</h3>
                     </div>
                     <div className="d-flex justify-content-center align-items-center flex-column pt-5 mt-5">
-                        <img src={MikeImage} />
-                        <h3 className="text-center mt-4">~ Lead Guitar ~ <br/> Mike</h3>
+                        <img src={JimImage} />
+                        <h3 className="text-center mt-4">~ Lead Guitar ~ <br/> Jim</h3>
                     </div>
                     <div className="d-flex justify-content-center align-items-center flex-column pt-5 mt-5">
                         <img src={PaulImage} />
