@@ -70,6 +70,9 @@ const About = () => {
                     </div>
                     <h3 className="pt-5 mt-5">Where we've performed</h3>
                     <ul class="list-unstyled">
+                        <li>South Shore Bar & Grill - Etobicoke</li>
+                        <li>EFC Ontario Gala Event - Toronto</li>
+                        <li>Lionheart British Pub - Mississauga</li>
                         <li>Oscar’s Roadhouse & Grill – Brampton</li>
                         <li>Honest Lawyer (Fennell) – Hamilton</li>
                         <li>Honest Lawyer (Downtown) – Hamilton</li>
