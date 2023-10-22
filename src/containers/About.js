@@ -47,7 +47,7 @@ const About = () => {
                     <p className="mb-5">You can add to the list now, the soon-to-be-famous rock cover band, ALMOST FAMOUS.  You’re welcome Mississauga!</p>
                     <p className="mb-5">Formed back in early 2014, the group is a collection of guys who love to play and perform rock songs from their favorite artists – The Black Crowes, Lenny Kravitz, The Tragically Hip, The Beatles and ZZ Top to name just a few.</p>
                     <p className="mb-5">Their MISSION is to bring the fun, energy and excitement back into live music, whether that be at your favorite bar, concert venue, festival or corporate function.</p>
-                    <p>THEY are <b>ALMOST FAMOUS</b>: Rich, Richard, Donn, Mike and Paul.</p>
+                    <p>THEY are <b>ALMOST FAMOUS</b>: Rich, Richard, Donn, Jim and Paul.</p>
                     <div className="d-flex justify-content-center align-items-center flex-column pt-5 mt-5">
                         <img src={RichImage} />
                         <h3 className="text-center mt-4">~ Lead Vocals/ Band Manager ~ <br/> Rich</h3>
