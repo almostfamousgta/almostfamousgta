@@ -27,6 +27,24 @@ const imagePerRow = 8;
 const Homepage = () => {
 	const gigs = [
     {
+      heading:"Cuchulainn’s Irish Pub",
+      subHeading: "Cuchulainn’s Irish Pub, No cover",
+      phone: "(905) 821-3790",
+      address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
+      description: "Show starts at 9pm",
+      image: "/assets/84eb8df840a46d6450c0.jpg",
+      date: "2024-02-22"
+    },
+    {
+      heading: "the South Shore Bar & Grill",
+      subHeading: "South Shore Bar & Grill",
+      phone: "(416) 704-1820",
+      address: "264 Browns Line, Toronto, ON, Canada, Ontario",
+      description: "Show starts at 9pm",
+      image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
+      date: "2024-02-02"
+    },
+    {
       heading: "the South Shore Bar & Grill",
       subHeading: "South Shore Bar & Grill",
       phone: "(416) 704-1820",
