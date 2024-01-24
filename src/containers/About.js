@@ -30,10 +30,10 @@ const About = () => {
                         <img src={AFLogo} alt="Almost Famous Band Logo with star" />
                         <h2 className="mt-5 afg-h1 text-center">Wins EFC Talent Show!</h2>
                         <p className="mb-5"><a href="https://www.electrofed.com/the-electrical-industrys-got-talent-show-eigt-a-huge-hit-winners-announced/" target="_blank">Click here/image</a> for more information.</p>
-                        <a href="https://youtube.com/@AlmostFamousGTA?feature=shared" target="_blank">
+                        <a href="https://youtube.com/@almostfamous8782?feature=shared" target="_blank">
                             <img src={YTLogo} alt="YouTube logo" />
                         </a>
-                        <p className="my-5"><a href="https://youtube.com/@AlmostFamousGTA?feature=shared" target="_blank">Follow YouTube link</a> to watch video.</p>
+                        <p className="my-5"><a href="https://youtube.com/@almostfamous8782?feature=shared" target="_blank">Follow YouTube link</a> to watch video.</p>
                     </div>
                 </div>
                 <hr className="container bg-white my-5 px-0"/>
