@@ -27,6 +27,24 @@ const imagePerRow = 8;
 const Homepage = () => {
 	const gigs = [
     {
+      heading: "the South Shore Bar & Grill",
+      subHeading: "South Shore Bar & Grill",
+      phone: "(416) 704-1820",
+      address: "264 Browns Line, Toronto, ON, Canada, Ontario",
+      description: "Show starts at 9pm",
+      image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
+      date: "2024-09-27"
+    },
+    {
+      heading: "the South Shore Bar & Grill",
+      subHeading: "South Shore Bar & Grill",
+      phone: "(416) 704-1820",
+      address: "264 Browns Line, Toronto, ON, Canada, Ontario",
+      description: "Show starts at 9pm",
+      image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
+      date: "2024-07-26"
+    },
+    {
       heading:"Cuchulainn’s Irish Pub",
       subHeading: "Cuchulainn’s Irish Pub, No cover",
       phone: "(905) 821-3790",
