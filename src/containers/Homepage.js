@@ -21,6 +21,8 @@ import HorseShoeImage from "../assets/Web-banner_AF_Horseshoe-Tavern_May-30-18.j
 import Spot1Image from "../assets/2017-12-28_15-37-06.jpg";
 import CuchulainnCharityImage from "../assets/22815548_1688411837845013_4358704672892183037_n.jpg";
 import HamiltonBullDogsImage from "../assets/hamilton-bulldogs-erie-otters.jpg";
+import EIFImage from "../assets/EFC-Win2.jpg";
+import PJImage from "../assets/pjobrien.jpg";
 
 const imagePerRow = 8;
 
@@ -43,6 +45,15 @@ const Homepage = () => {
       description: "Show starts at 9pm",
       image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
       date: "2024-07-26"
+    },
+    {
+      heading: "P.J. O'Brien",
+      subHeading: "P.J. O'Brien -  The City Pub",
+      phone: "(416) 815-7562",
+      address: "39 Colborne St, Toronto, ON, Canada, Ontario",
+      description: "Show starts at 7pm",
+      image: "/assets/ff18a4d37c6ed2b5719f.jpg",
+      date: "2024-07-19"
     },
     {
       heading:"Cuchulainn’s Irish Pub",
