@@ -35,6 +35,50 @@ const Homepage = () => {
       address: "264 Browns Line, Toronto, ON, Canada, Ontario",
       description: "Show starts at 9pm",
       image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
+      date: "2025-01-17"
+    },
+    {
+      heading:"Cuchulainn’s Irish Pub",
+      subHeading: "Cuchulainn’s Irish Pub, No cover",
+      phone: "(905) 821-3790",
+      address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
+      description: "Show starts at 9pm",
+      image: "/assets/84eb8df840a46d6450c0.jpg",
+      date: "2024-11-09"
+    },
+    {
+      heading:"Royal Canadian Legion, Branch 101",
+      subHeading: "Doors open 5:30pm – Show starts at 6:00pm – Dinner at 7:00pm",
+      address: "Royal Canadian Legion, Branch 101",
+      description: "$35 Advanced $40 at the door, Ticket information",
+      image: "/assets/4f18dc8758dfa5d6e376.png",
+      date: "2024-11-08"
+    },
+    {
+      heading: "P.J. O'Brien",
+      subHeading: "P.J. O'Brien - The City Pub",
+      phone: "(416) 815-7562",
+      address: "39 Colborne St, Toronto, ON, Canada, Ontario",
+      description: "Show starts at 7pm",
+      image: "/assets/ff18a4d37c6ed2b5719f.jpg",
+      date: "2024-09-28"
+    },
+    {
+      heading:"Cuchulainn’s Irish Pub",
+      subHeading: "Cuchulainn’s Irish Pub, No cover",
+      phone: "(905) 821-3790",
+      address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
+      description: "Show starts at 9pm",
+      image: "/assets/84eb8df840a46d6450c0.jpg",
+      date: "2024-09-20"
+    },
+    {
+      heading: "the South Shore Bar & Grill",
+      subHeading: "South Shore Bar & Grill",
+      phone: "(416) 704-1820",
+      address: "264 Browns Line, Toronto, ON, Canada, Ontario",
+      description: "Show starts at 9pm",
+      image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
       date: "2024-09-27"
     },
     {
