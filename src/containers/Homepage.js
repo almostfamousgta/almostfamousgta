@@ -48,7 +48,6 @@ const Homepage = () => {
     },
     {
       heading:"Royal Canadian Legion, Branch 101",
-      subHeading: "Doors open 5:30pm – Show starts at 6:00pm – Dinner at 7:00pm",
       address: "Royal Canadian Legion, Branch 101",
       description: "$35 Advanced $40 at the door, Ticket information",
       image: "/assets/4f18dc8758dfa5d6e376.png",
