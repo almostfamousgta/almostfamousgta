@@ -49,7 +49,6 @@ const Homepage = () => {
     {
       heading:"Royal Canadian Legion, Branch 101",
       address: "Royal Canadian Legion, Branch 101",
-      description: "$35 Advanced $40 at the door, Ticket information",
       image: "/assets/4f18dc8758dfa5d6e376.png",
       date: "2024-11-08"
     },
