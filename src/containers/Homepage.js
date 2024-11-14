@@ -23,14 +23,42 @@ import CuchulainnCharityImage from "../assets/22815548_1688411837845013_43587046
 import HamiltonBullDogsImage from "../assets/hamilton-bulldogs-erie-otters.jpg";
 import EIFImage from "../assets/EFC-Win2.jpg";
 import PJImage from "../assets/pjobrien.jpg";
+import ArchibaldImage from "../assets/archibald.jpg";
 
 const imagePerRow = 8;
 
 const Homepage = () => {
 	const gigs = [
     {
-      heading: "the South Shore Bar & Grill",
-      subHeading: "South Shore Bar & Grill",
+      heading: "Live at South Shore Bar & Grill",
+      subHeading: "Toronto",
+      phone: "(416) 704-1820",
+      address: "264 Browns Line, Toronto, ON, Canada, Ontario",
+      description: "Show starts at 9pm",
+      image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
+      date: "2025-04-25"
+    },
+    {
+      heading:"Live at Cuchulainn’s Irish Pub",
+      subHeading: "Streetsville location",
+      phone: "(905) 821-3790",
+      address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
+      description: "Show starts at 9pm",
+      image: "/assets/84eb8df840a46d6450c0.jpg",
+      date: "2024-12-21"
+    },
+    {
+      heading: "Live at Archibalds",
+      subHeading: "Richmond Hill location",
+      phone: "(905) 889-0235",
+      address: "8950 Yonge St, Richmond Hill, Ontario, L4C 6Z7",
+      description: "Show from 10:00 PM - 1:00 AM (EST)",
+      image: "/assets/e168a5d6dca0a208c4f8.jpg",
+      date: "2024-11-23"
+    },
+    {
+      heading: "Live at South Shore Bar & Grill",
+      subHeading: "Toronto",
       phone: "(416) 704-1820",
       address: "264 Browns Line, Toronto, ON, Canada, Ontario",
       description: "Show starts at 9pm",
@@ -480,3 +508,4 @@ const Homepage = () => {
 	)
 }
 export default Homepage;
+
