@@ -30,7 +30,25 @@ const imagePerRow = 8;
 const Homepage = () => {
 	const gigs = [
     {
-      heading: "Live at South Shore Bar & Grill",
+      heading:"Royal Canadian Legion, Branch 101",
+      address: "3850 Lake Shore Blvd W, Etobicoke, ON M8W 1R3",
+      phone: "(416) 255-4381",
+      subHeading: "Toronto",
+      image: "/assets/4f18dc8758dfa5d6e376.png",
+      description: "Show at 7:00 PM (EST)",
+      date: "2025-02-28"
+    },
+    {
+      heading: "Archibald's Pub",
+      subHeading: "Richmond Hill",
+      phone: "(905) 889-0235",
+      address: "8950 Yonge St, Richmond Hill, Ontario, L4C 6Z7",
+      description: "Show from 10:00 PM - 1:00 AM (EST)",
+      image: "/assets/e168a5d6dca0a208c4f8.jpg",
+      date: "2025-02-08"
+    },
+    {
+      heading: "South Shore Bar & Grill",
       subHeading: "Toronto",
       phone: "(416) 704-1820",
       address: "264 Browns Line, Toronto, ON, Canada, Ontario",
@@ -39,8 +57,8 @@ const Homepage = () => {
       date: "2025-04-25"
     },
     {
-      heading:"Live at Cuchulainn’s Irish Pub",
-      subHeading: "Streetsville location",
+      heading:"Cuchulainn’s Irish Pub",
+      subHeading: "Streetsville",
       phone: "(905) 821-3790",
       address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
       description: "Show starts at 9pm",
@@ -48,7 +66,7 @@ const Homepage = () => {
       date: "2024-12-21"
     },
     {
-      heading: "Live at Archibalds",
+      heading: "Archibald's Pub",
       subHeading: "Richmond Hill location",
       phone: "(905) 889-0235",
       address: "8950 Yonge St, Richmond Hill, Ontario, L4C 6Z7",
@@ -57,7 +75,7 @@ const Homepage = () => {
       date: "2024-11-23"
     },
     {
-      heading: "Live at South Shore Bar & Grill",
+      heading: "South Shore Bar & Grill",
       subHeading: "Toronto",
       phone: "(416) 704-1820",
       address: "264 Browns Line, Toronto, ON, Canada, Ontario",
