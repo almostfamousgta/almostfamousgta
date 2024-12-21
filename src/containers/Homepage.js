@@ -24,11 +24,21 @@ import HamiltonBullDogsImage from "../assets/hamilton-bulldogs-erie-otters.jpg";
 import EIFImage from "../assets/EFC-Win2.jpg";
 import PJImage from "../assets/pjobrien.jpg";
 import ArchibaldImage from "../assets/archibald.jpg";
+import CarriganImage from "../assets/carrigan-arms.JPG";
 
 const imagePerRow = 8;
 
 const Homepage = () => {
 	const gigs = [
+    {
+      heading: "Carrigan Arms",
+      subHeading: "Burlington",
+      phone: "(905) 332-6131",
+      address: "2025 Upper Middle Road, Burlington, ON, Canada, Ontario",
+      description: "Show starts at 8pm",
+      image: "/assets/85b9bfaa51e7d849391d.JPG",
+      date: "2025-03-01"
+    },
     {
       heading:"Royal Canadian Legion, Branch 101",
       address: "3850 Lake Shore Blvd W, Etobicoke, ON M8W 1R3",
