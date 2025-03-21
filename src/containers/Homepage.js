@@ -25,11 +25,29 @@ import EIFImage from "../assets/EFC-Win2.jpg";
 import PJImage from "../assets/pjobrien.jpg";
 import ArchibaldImage from "../assets/archibald.jpg";
 import CarriganImage from "../assets/carrigan-arms.JPG";
+import SmokeshowImage from "../assets/smokeshow.png";
 
 const imagePerRow = 8;
 
 const Homepage = () => {
 	const gigs = [
+    {
+      heading: "SMOKESHOW BBQ & BREW",
+      subHeading: "Toronto",
+      phone: "(416) 901-7469",
+      address: "744 Mt Pleasant Rd, Toronto, Ontario, M4S 2N6",
+      image: "/assets/f7c281b23f955ec3cb34.png",
+      date: "2025-10-30"
+    },
+    {
+      heading: "Archibald's Pub",
+      subHeading: "Richmond Hill",
+      phone: "(905) 889-0235",
+      address: "8950 Yonge St, Richmond Hill, Ontario, L4C 6Z7",
+      description: "Show from 10:00 PM - 1:00 AM",
+      image: "/assets/e168a5d6dca0a208c4f8.jpg",
+      date: "2025-06-14"
+    },
     {
       heading: "South Shore Bar & Grill",
       subHeading: "Toronto",
@@ -38,6 +56,15 @@ const Homepage = () => {
       description: "Show starts at 9pm",
       image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
       date: "2025-05-30"
+    },
+    {
+      heading:"Cuchulainn’s Irish Pub",
+      subHeading: "Streetsville",
+      phone: "(905) 821-3790",
+      address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
+      description: "Show starts at 9pm",
+      image: "/assets/84eb8df840a46d6450c0.jpg",
+      date: "2025-05-16"
     },
     {
       heading:"Cuchulainn’s Irish Pub",
@@ -63,7 +90,7 @@ const Homepage = () => {
       phone: "(416) 255-4381",
       subHeading: "Toronto",
       image: "/assets/4f18dc8758dfa5d6e376.png",
-      description: "Show at 7:00 PM (EST)",
+      description: "Show at 7:00 PM",
       date: "2025-02-28"
     },
     {
@@ -71,7 +98,7 @@ const Homepage = () => {
       subHeading: "Richmond Hill",
       phone: "(905) 889-0235",
       address: "8950 Yonge St, Richmond Hill, Ontario, L4C 6Z7",
-      description: "Show from 10:00 PM - 1:00 AM (EST)",
+      description: "Show from 10:00 PM - 1:00 AM",
       image: "/assets/e168a5d6dca0a208c4f8.jpg",
       date: "2025-02-08"
     },
@@ -98,7 +125,7 @@ const Homepage = () => {
       subHeading: "Richmond Hill location",
       phone: "(905) 889-0235",
       address: "8950 Yonge St, Richmond Hill, Ontario, L4C 6Z7",
-      description: "Show from 10:00 PM - 1:00 AM (EST)",
+      description: "Show from 10:00 PM - 1:00 AM",
       image: "/assets/e168a5d6dca0a208c4f8.jpg",
       date: "2024-11-23"
     },
