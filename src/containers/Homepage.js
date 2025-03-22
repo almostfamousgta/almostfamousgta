@@ -37,6 +37,7 @@ const Homepage = () => {
       phone: "(416) 901-7469",
       address: "744 Mt Pleasant Rd, Toronto, Ontario, M4S 2N6",
       image: "/assets/f7c281b23f955ec3cb34.png",
+      description: "Show starts at 8:00 PM",
       date: "2025-10-30"
     },
     {
@@ -53,7 +54,7 @@ const Homepage = () => {
       subHeading: "Toronto",
       phone: "(416) 704-1820",
       address: "264 Browns Line, Toronto, ON, Canada, Ontario",
-      description: "Show starts at 9pm",
+      description: "Show starts at 9:00 PM",
       image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
       date: "2025-05-30"
     },
@@ -62,7 +63,7 @@ const Homepage = () => {
       subHeading: "Streetsville",
       phone: "(905) 821-3790",
       address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
-      description: "Show starts at 9pm",
+      description: "Show starts at 9:00 PM",
       image: "/assets/84eb8df840a46d6450c0.jpg",
       date: "2025-05-16"
     },
@@ -71,7 +72,7 @@ const Homepage = () => {
       subHeading: "Streetsville",
       phone: "(905) 821-3790",
       address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
-      description: "Show starts at 9pm",
+      description: "Show starts at 9:00 PM",
       image: "/assets/84eb8df840a46d6450c0.jpg",
       date: "2025-03-21"
     },
@@ -80,7 +81,7 @@ const Homepage = () => {
       subHeading: "Burlington",
       phone: "(905) 332-6131",
       address: "2025 Upper Middle Road, Burlington, ON, Canada, Ontario",
-      description: "Show starts at 8pm",
+      description: "Show starts at 8:00 PM",
       image: "/assets/85b9bfaa51e7d849391d.JPG",
       date: "2025-03-01"
     },
@@ -107,7 +108,7 @@ const Homepage = () => {
       subHeading: "Toronto",
       phone: "(416) 704-1820",
       address: "264 Browns Line, Toronto, ON, Canada, Ontario",
-      description: "Show starts at 9pm",
+      description: "Show starts at 9:00 PM",
       image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
       date: "2025-04-25"
     },
@@ -116,7 +117,7 @@ const Homepage = () => {
       subHeading: "Streetsville",
       phone: "(905) 821-3790",
       address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
-      description: "Show starts at 9pm",
+      description: "Show starts at 9:00 PM",
       image: "/assets/84eb8df840a46d6450c0.jpg",
       date: "2024-12-21"
     },
@@ -134,7 +135,7 @@ const Homepage = () => {
       subHeading: "Toronto",
       phone: "(416) 704-1820",
       address: "264 Browns Line, Toronto, ON, Canada, Ontario",
-      description: "Show starts at 9pm",
+      description: "Show starts at 9:00 PM",
       image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
       date: "2025-01-17"
     },
@@ -143,7 +144,7 @@ const Homepage = () => {
       subHeading: "Cuchulainn’s Irish Pub, No cover",
       phone: "(905) 821-3790",
       address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
-      description: "Show starts at 9pm",
+      description: "Show starts at 9:00 PM",
       image: "/assets/84eb8df840a46d6450c0.jpg",
       date: "2024-11-09"
     },
@@ -158,7 +159,7 @@ const Homepage = () => {
       subHeading: "P.J. O'Brien - The City Pub",
       phone: "(416) 815-7562",
       address: "39 Colborne St, Toronto, ON, Canada, Ontario",
-      description: "Show starts at 7pm",
+      description: "Show starts at 7:00 PM",
       image: "/assets/ff18a4d37c6ed2b5719f.jpg",
       date: "2024-09-28"
     },
@@ -167,7 +168,7 @@ const Homepage = () => {
       subHeading: "Cuchulainn’s Irish Pub, No cover",
       phone: "(905) 821-3790",
       address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
-      description: "Show starts at 9pm",
+      description: "Show starts at 9:00 PM",
       image: "/assets/84eb8df840a46d6450c0.jpg",
       date: "2024-09-20"
     },
@@ -176,7 +177,7 @@ const Homepage = () => {
       subHeading: "South Shore Bar & Grill",
       phone: "(416) 704-1820",
       address: "264 Browns Line, Toronto, ON, Canada, Ontario",
-      description: "Show starts at 9pm",
+      description: "Show starts at 9:00 PM",
       image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
       date: "2024-09-27"
     },
@@ -185,7 +186,7 @@ const Homepage = () => {
       subHeading: "South Shore Bar & Grill",
       phone: "(416) 704-1820",
       address: "264 Browns Line, Toronto, ON, Canada, Ontario",
-      description: "Show starts at 9pm",
+      description: "Show starts at 9:00 PM",
       image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
       date: "2024-07-26"
     },
@@ -194,7 +195,7 @@ const Homepage = () => {
       subHeading: "P.J. O'Brien -  The City Pub",
       phone: "(416) 815-7562",
       address: "39 Colborne St, Toronto, ON, Canada, Ontario",
-      description: "Show starts at 7pm",
+      description: "Show starts at 7:00 PM",
       image: "/assets/ff18a4d37c6ed2b5719f.jpg",
       date: "2024-07-19"
     },
@@ -203,7 +204,7 @@ const Homepage = () => {
       subHeading: "Cuchulainn’s Irish Pub, No cover",
       phone: "(905) 821-3790",
       address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
-      description: "Show starts at 9pm",
+      description: "Show starts at 9:00 PM",
       image: "/assets/84eb8df840a46d6450c0.jpg",
       date: "2024-02-22"
     },
@@ -212,7 +213,7 @@ const Homepage = () => {
       subHeading: "South Shore Bar & Grill",
       phone: "(416) 704-1820",
       address: "264 Browns Line, Toronto, ON, Canada, Ontario",
-      description: "Show starts at 9pm",
+      description: "Show starts at 9:00 PM",
       image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
       date: "2024-02-02"
     },
@@ -221,7 +222,7 @@ const Homepage = () => {
       subHeading: "South Shore Bar & Grill",
       phone: "(416) 704-1820",
       address: "264 Browns Line, Toronto, ON, Canada, Ontario",
-      description: "Show starts at 8pm",
+      description: "Show starts at 8:00 PM",
       image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
       date: "2023-11-24"
     },
@@ -230,7 +231,7 @@ const Homepage = () => {
       subHeading:"The St. George Pub, No cover",
       phone:"(905) 873-0555",
       address:"7 Main Street North, Georgetown",
-      description:"Show starts at 9pm",
+      description:"Show starts at 9:00 PM",
       image: "/assets/053b00df983972fdb6c4.jpg",
       date: "2023-04-14"
     },
@@ -239,7 +240,7 @@ const Homepage = () => {
 			subHeading:"Honest Lawyer (Hamilton), No cover",
 			phone:"(289) 674-1080",
 			address:"1115 Fennell Ave East, Hamilton",
-			description:"Show starts at 9pm",
+			description:"Show starts at 9:00 PM",
 			image:"/assets/d9a7793ceb95e807f941.jpg",
 			date: "2023-05-13"
 		},
@@ -248,7 +249,7 @@ const Homepage = () => {
 			subHeading: "South Shore Bar & Grill",
 			phone: "(416) 704-1820",
 			address: "264 Browns Line, Toronto, ON, Canada, Ontario",
-			description: "Show starts at 8pm",
+			description: "Show starts at 8:00 PM",
 			image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
 			date: "2023-02-24"
 		},
@@ -257,7 +258,7 @@ const Homepage = () => {
 			subHeading:"The St. George Pub, No cover",
 			phone:"(905) 873-0555",
 			address:"7 Main Street North, Georgetown",
-			description:"Show starts at 9pm",
+			description:"Show starts at 9:00 PM",
 			image: "/assets/053b00df983972fdb6c4.jpg",
 			date: "2023-02-10"
 		},
@@ -272,7 +273,7 @@ const Homepage = () => {
 			subHeading:"Honest Lawyer (Hamilton), No cover",
 			phone:"(289) 674-1080",
 			address:"1115 Fennell Ave East, Hamilton",
-			description:"Show starts at 9pm",
+			description:"Show starts at 9:00 PM",
 			image:"/assets/d9a7793ceb95e807f941.jpg",
 			date: "2023-03-11"
 		},
@@ -281,7 +282,7 @@ const Homepage = () => {
 			subHeading: "Lionheart British Pub & Restaurant, No cover",
 			phone: "(905) 824-6669",
 			address: "Derry Road West, Unit 24, Mississauga",
-			description: "Show starts at 9pm",
+			description: "Show starts at 9:00 PM",
 			image: "/assets/fe61f9398b57c26af9e1.jpg",
 			date: "2022-11-28"
 		},
@@ -290,7 +291,7 @@ const Homepage = () => {
 			subHeading: "South Shore Bar & Grill",
 			phone: "(416) 704-1820",
 			address: "264 Browns Line, Toronto, ON, Canada, Ontario",
-			description: "Show starts at 8pm",
+			description: "Show starts at 8:00 PM",
 			image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
 			date: "2022-12-16"
 		},
@@ -299,7 +300,7 @@ const Homepage = () => {
 			subHeading: "The St. George Pub, No cover",
 			phone: "(905) 873-0555",
 			address: "7 Main Street North, Georgetown",
-			description: "Show starts at 9pm",
+			description: "Show starts at 9:00 PM",
 			image: "/assets/053b00df983972fdb6c4.jpg",
 			date: "2023-01-06"
 		},
@@ -308,7 +309,7 @@ const Homepage = () => {
 			subHeading: "Honest Lawyer (Hamilton), No cover",
 			phone: "(289) 674-1080",
 			address: "1115 Fennell Ave East, Hamilton",
-			description: "Show starts at 9pm",
+			description: "Show starts at 9:00 PM",
 			image: "/assets/d9a7793ceb95e807f941.jpg",
 			date: "2023-01-14"
 		},
@@ -317,7 +318,7 @@ const Homepage = () => {
 			subHeading:"The St. George Pub, No cover",
 			phone:"(905) 873-0555",
 			address:"7 Main Street North, Georgetown",
-			description:"Show starts at 9pm",
+			description:"Show starts at 9:00 PM",
 			image: "/assets/053b00df983972fdb6c4.jpg",
 			date: "2022-10-08"
 		},
@@ -326,7 +327,7 @@ const Homepage = () => {
 			subHeading:"The St. George Pub, No cover",
 			phone:"(905) 873-0555",
 			address:"7 Main Street North, Georgetown",
-			description:"Show starts at 9pm",
+			description:"Show starts at 9:00 PM",
 			image: "/assets/053b00df983972fdb6c4.jpg",
 			date: "2022-08-26"
 		},
@@ -335,7 +336,7 @@ const Homepage = () => {
 			subHeading:"Oscar’s Roadhouse Bar & Grill, No cover",
 			phone:"(905) 799-1304",
 			address:"1785 Queen St East, Brampton",
-			description:"Show starts at 9pm",
+			description:"Show starts at 9:00 PM",
 			image:"/assets/36f94f01873eaa577e7a.jpg",
 			date: "2022-08-05"
 		},
@@ -344,7 +345,7 @@ const Homepage = () => {
 			subHeading: "Honest Lawyer (Fennell), No cover",
 			phone: "(289) 674-1080",
 			address: "1115 Fennell Ave East, Hamilton",
-			description: "Show starts at 9pm",
+			description: "Show starts at 9:00 PM",
 			image: "/assets/d9a7793ceb95e807f941.jpg",
 			date: "2022-01-16"
 		},
@@ -353,7 +354,7 @@ const Homepage = () => {
 			subHeading: "Cuchulainn’s Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
-			description: "Show starts at 9:30pm",
+			description: "Show starts at 9:30 PM",
 			image: "/assets/84eb8df840a46d6450c0.jpg",
 			date: "2020-02-15"
 		},
@@ -362,7 +363,7 @@ const Homepage = () => {
 			subHeading: "Honest Lawyer (Downtown) , No cover",
 			phone: "(905) 522-5297",
 			address: "1115 Fennell Ave East, Hamilton",
-			description: "Show starts at 9pm",
+			description: "Show starts at 9:00 PM",
 			image: "/assets/81d1fa5e3110d2da886a.jpg",
 			date: "2020-02-08"
 		},
@@ -371,7 +372,7 @@ const Homepage = () => {
 			subHeading: "Cuchulainn’s Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
-			description: "Show starts at 9:30pm",
+			description: "Show starts at 9:30 PM",
 			image: "/assets/84eb8df840a46d6450c0.jpg",
 			date: "2020-01-04"
 		},
@@ -380,7 +381,7 @@ const Homepage = () => {
 			subHeading: "Cuchulainn’s Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
-			description: "Show starts at 9pm",
+			description: "Show starts at 9:00 PM",
 			image: "/assets/84eb8df840a46d6450c0.jpg",
 			date: "2019-12-14"
 		},
@@ -388,7 +389,7 @@ const Homepage = () => {
 			heading:"Dakota’s Sports Bar & Grill",
 			subHeading: "Dakota's sports bar, $5 Cover",
 			address: "2814 Lake Shore Blvd, W Unit 2, Toronto, ON",
-			description: "Show starts at 9pm",
+			description: "Show starts at 9:00 PM",
 			image: "/assets/b1d1a42e902763d6e7de.jpg",
 			date: "2019-11-16"
 		},
@@ -397,7 +398,7 @@ const Homepage = () => {
 			subHeading: "Cuchulainn’s Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
-			description: "Show starts at 9pm",
+			description: "Show starts at 9:00 PM",
 			image: "/assets/84eb8df840a46d6450c0.jpg",
 			date: "2019-11-02"
 		},
@@ -406,7 +407,7 @@ const Homepage = () => {
 			subHeading: "Cuchulainn’s Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
-			description: "Show starts at 9pm",
+			description: "Show starts at 9:00 PM",
 			image: "/assets/84eb8df840a46d6450c0.jpg",
 			date: "2019-10-05"
 		},
@@ -415,7 +416,7 @@ const Homepage = () => {
 			subHeading: "Cuchulainn’s Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
-			description: "Show starts at 9pm",
+			description: "Show starts at 9:00 PM",
 			image: "/assets/84eb8df840a46d6450c0.jpg",
 			date: "2019-09-07"
 		},
@@ -424,7 +425,7 @@ const Homepage = () => {
 			subHeading: "Cuchulainn’s Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
-			description: "Show starts at 9pm",
+			description: "Show starts at 9:00 PM",
 			image: "/assets/84eb8df840a46d6450c0.jpg",
 			date: "2019-08-17"
 		},
@@ -440,7 +441,7 @@ const Homepage = () => {
 			heading:"Dakota’s Sports Bar & Grill",
 			subHeading: "Dakota's sports bar, $5 Cover",
 			address: "2814 Lake Shore Blvd, W Unit 2, Toronto, ON",
-			description: "Show starts at 9pm",
+			description: "Show starts at 9:00 PM",
 			image: "/assets/b1d1a42e902763d6e7de.jpg",
 			date: "2019-07-06"
 		},
@@ -449,7 +450,7 @@ const Homepage = () => {
 			subHeading: "The Black Wolf Smokehouse, $5 Cover",
 			address: "139 Broadway Ave, Orangeville, ON",
 			phone: "519-941-1313",
-			description: "Show starts at 9pm",
+			description: "Show starts at 9:00 PM",
 			image: "/assets/2f5243cf5c68402294a0.jpg",
 			date: "2019-06-22"
 		},
@@ -457,7 +458,7 @@ const Homepage = () => {
 			heading:"Drums N Flats",
 			subHeading: "Drums N Flat, $5 Cover",
 			address: "60 Randall Drive, Ajax, ON",
-			description: "Show starts at 9pm",
+			description: "Show starts at 9:00 PM",
 			image: "/assets/81b6490c8eddddee3a6d.jpg",
 			date: "2018-08-24"
 		},
@@ -465,7 +466,7 @@ const Homepage = () => {
 			heading:"The Horseshoe Tavern",
 			subHeading: "Other acts: Hyness, Saint Yves, Six At Best, Infinite Repeat",
 			address: "370 Queen Street West, Toronto, ON",
-			description: "Show starts at 9pm. We go on at 11:30pm.",
+			description: "Show starts at 9:00 PM. We go on at 11:30 PM",
 			image: "/assets/1a440dccc088c2db7119.jpg",
 			date: "2018-05-30"
 		},
@@ -473,7 +474,7 @@ const Homepage = () => {
 			heading:"Spot 1 Grill & Music Hall",
 			subHeading: "Other acts: Torpedo Sunrise, Mid Life Crisis",
 			address: "289 Rutherford Rd South, Brampton, ON",
-			description: "Show starts at 9pm. We go on at 11pm.",
+			description: "Show starts at 9:00 PM. We go on at 11:00 PM",
 			image: "/assets/5866f2657c2b61f18603.jpg",
 			date: "2018-01-27"
 		},
@@ -481,7 +482,7 @@ const Homepage = () => {
 			heading:"Cuchulainn’s Irish Pub, Charity Event",
 			subHeading: "Other acts: The Groove Co, Ryan Dornan, Luke Reece, Poetry Slam",
 			address: "158 Queen St South, Mississauga, ON",
-			description: "Event starts at 8pm. We go on at 10:30pm.",
+			description: "Event starts at 8:00 PM. We go on at 10:30 PM",
 			image: "/assets/fe4925b5849f3feab283.jpg",
 			date: "2017-10-09"
 		},
