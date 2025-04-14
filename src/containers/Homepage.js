@@ -537,6 +537,7 @@ const Homepage = () => {
 					);
 				})}
 			</section>
+			
 			<hr className="container px-0 bg-white" />
 			<section className="container py-5">
 				<h2 className="text-center afg-h1 mb-5 pb-5">Recent Performances</h2>
