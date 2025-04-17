@@ -33,15 +33,6 @@ const imagePerRow = 8;
 const Homepage = () => {
 	const gigs = [
 		{
-			heading: "NICKELBROOK",
-			subHeading: "Burlington",
-			phone: "(905) 681-2739",
-			address: "3426 Mainway, Burlington, ON L7M 1A8",
-			image: "/assets/07ff7cc6015c3fe6fafd.png",
-			description: "Show starts at 7:00 PM",
-			date: "2025-05-24"
-		},
-		{
 			heading: "SMOKESHOW BBQ & BREW",
 			subHeading: "Toronto",
 			phone: "(416) 901-7469",
