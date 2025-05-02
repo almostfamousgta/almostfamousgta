@@ -27,11 +27,30 @@ import ArchibaldImage from "../assets/archibald.jpg";
 import CarriganImage from "../assets/carrigan-arms.JPG";
 import SmokeshowImage from "../assets/smokeshow.png";
 import NickelbrookImage from "../assets/Nickel_Brook.png";
+import BdayImage from "../assets/50thbday.jpg";
 
 const imagePerRow = 8;
 
 const Homepage = () => {
 	const gigs = [
+		{
+			heading: "Private Party",
+			subHeading: "Burlington",
+			phone: " ",
+			address: " ",
+			description: " ",
+			image: "/assets/9c27dab5c9566cac7127.jpg",
+			date: "2025-05-24"
+		},
+		{
+			heading: "South Shore Bar & Grill",
+			subHeading: "Toronto",
+			phone: "(416) 704-1820",
+			address: "264 Browns Line, Toronto, ON, Canada, Ontario",
+			description: "Show starts at 9:00 PM",
+			image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
+			date: "2025-08-15"
+		},
 		{
 			heading: "SMOKESHOW BBQ & BREW",
 			subHeading: "Toronto",
@@ -517,6 +536,7 @@ const Homepage = () => {
 
 	return (
 		<Layout>
+			{}
 			<HeroBanner heading="Upcoming Live Shows"/>
 			<section className="container py-5">
 				{upcomingGigs.sort((a,b) => new Date(a.date) - new Date(b.date)).map((gig, index) => {
