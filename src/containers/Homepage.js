@@ -28,11 +28,48 @@ import CarriganImage from "../assets/carrigan-arms.JPG";
 import SmokeshowImage from "../assets/smokeshow.png";
 import NickelbrookImage from "../assets/Nickel_Brook.png";
 import BdayImage from "../assets/50thbday.jpg";
+import BlkImage from "../assets/blk-swan.png";
 
 const imagePerRow = 8;
 
 const Homepage = () => {
 	const gigs = [
+		{
+			heading:"Cuchulainn’s Irish Pub",
+			subHeading: "Streetsville",
+			phone: "(905) 821-3790",
+			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
+			description: "Show starts at 9:00 PM",
+			image: "/assets/84eb8df840a46d6450c0.jpg",
+			date: "2025-07-11"
+		},
+		{
+			heading:"Cuchulainn’s Irish Pub",
+			subHeading: "Streetsville",
+			phone: "(905) 821-3790",
+			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
+			description: "Show starts at 9:00 PM",
+			image: "/assets/84eb8df840a46d6450c0.jpg",
+			date: "2025-09-05"
+		},
+		{
+			heading:"Royal Canadian Legion, Branch 101",
+			address: "3850 Lake Shore Blvd W, Etobicoke, ON M8W 1R3",
+			phone: "(416) 255-4381",
+			subHeading: "Toronto",
+			image: "/assets/4f18dc8758dfa5d6e376.png",
+			description: "Show at 7:00 PM",
+			date: "2025-08-08"
+		},
+		{
+			heading: "The BLK Swan",
+			subHeading: "Burlington",
+			phone: " ",
+			address: "4040 Palladium Way, Burlington, ON, Canada",
+			description: "Show starts at 8:00 PM - 11:00 PM",
+			image: "/assets/2f1ab9de09d468ce74c5.png",
+			date: "2025-08-01"
+		},
 		{
 			heading: "Private Party",
 			subHeading: "Burlington",
@@ -46,7 +83,7 @@ const Homepage = () => {
 			heading: "South Shore Bar & Grill",
 			subHeading: "Toronto",
 			phone: "(416) 704-1820",
-			address: "264 Browns Line, Toronto, ON, Canada, Ontario",
+			address: "264 Browns Line, Toronto, ON, Canada",
 			description: "Show starts at 9:00 PM",
 			image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
 			date: "2025-08-15"
