@@ -44,7 +44,7 @@ const Homepage = () => {
 			date: "2025-12-05"
 		},{
 			heading: "Private Party",
-			subHeading: "Burlington",
+			subHeading: "Mississauga",
 			phone: " ",
 			address: " ",
 			description: " ",
