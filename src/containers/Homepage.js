@@ -51,6 +51,15 @@ const Homepage = () => {
 			image: "/assets/9c27dab5c9566cac7127.jpg",
 			date: "2025-11-08"
 		},
+			{
+			heading: "South Shore Bar & Grill",
+			subHeading: "Toronto",
+			phone: "(416) 704-1820",
+			address: "264 Browns Line, Toronto, ON, Canada",
+			description: "Show starts at 9:00 PM",
+			image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
+			date: "2025-11-28"
+		},
 		{
 			heading: "South Shore Bar & Grill",
 			subHeading: "Toronto",
@@ -68,6 +77,24 @@ const Homepage = () => {
 			image: "/assets/4f18dc8758dfa5d6e376.png",
 			description: "Show at 7:00 PM",
 			date: "2025-10-03"
+		},
+			{
+			heading: "SMOKESHOW BBQ & BREW",
+			subHeading: "Toronto",
+			phone: "(416) 901-7469",
+			address: "744 Mt Pleasant Rd, Toronto, Ontario, M4S 2N6",
+			image: "/assets/f7c281b23f955ec3cb34.png",
+			description: "Show starts at 8:00 PM",
+			date: "2025-10-09"
+		},
+		{
+			heading:"Cuchulainn’s Irish Pub",
+			subHeading: "Streetsville",
+			phone: "(905) 821-3790",
+			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
+			description: "Show starts at 9:00 PM",
+			image: "/assets/84eb8df840a46d6450c0.jpg",
+			date: "2025-12-12"
 		},
 		{
 			heading: "The BLK Swan",
