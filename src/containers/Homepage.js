@@ -41,6 +41,22 @@ const Homepage = () => {
 			subHeading: "Toronto",
 			image: "/assets/4f18dc8758dfa5d6e376.png",
 			description: "Show at 7:00 PM",
+			date: "2026-04-17"
+		},{
+			heading:"Royal Canadian Legion, Branch 101",
+			address: "3850 Lake Shore Blvd W, Etobicoke, ON M8W 1R3",
+			phone: "(416) 255-4381",
+			subHeading: "Toronto",
+			image: "/assets/4f18dc8758dfa5d6e376.png",
+			description: "Show at 7:00 PM",
+			date: "2026-01-30"
+		},{
+			heading:"Royal Canadian Legion, Branch 101",
+			address: "3850 Lake Shore Blvd W, Etobicoke, ON M8W 1R3",
+			phone: "(416) 255-4381",
+			subHeading: "Toronto",
+			image: "/assets/4f18dc8758dfa5d6e376.png",
+			description: "Show at 7:00 PM",
 			date: "2025-12-05"
 		},{
 			heading: "Private Party",
@@ -50,17 +66,7 @@ const Homepage = () => {
 			description: " ",
 			image: "/assets/9c27dab5c9566cac7127.jpg",
 			date: "2025-11-08"
-		},
-			{
-			heading: "South Shore Bar & Grill",
-			subHeading: "Toronto",
-			phone: "(416) 704-1820",
-			address: "264 Browns Line, Toronto, ON, Canada",
-			description: "Show starts at 9:00 PM",
-			image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
-			date: "2025-11-28"
-		},
-		{
+		},{
 			heading: "South Shore Bar & Grill",
 			subHeading: "Toronto",
 			phone: "(416) 704-1820",
