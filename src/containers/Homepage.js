@@ -35,6 +35,7 @@ const imagePerRow = 8;
 const Homepage = () => {
 	const gigs = [
 		{
+			heading:"Royal Canadian Legion, Branch 101",
 			heading:"Cuchulainn’s Irish Pub",
 			subHeading: "Streetsville",
 			phone: "(905) 821-3790",
@@ -42,7 +43,7 @@ const Homepage = () => {
 			description: "Show starts at 9:00 PM",
 			image: "/assets/84eb8df840a46d6450c0.jpg",
 			date: "2026-02-06"
-		}{
+		},{
 			heading:"Royal Canadian Legion, Branch 101",
 			address: "3850 Lake Shore Blvd W, Etobicoke, ON M8W 1R3",
 			phone: "(416) 255-4381",

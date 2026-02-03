@@ -68,6 +68,10 @@ const About = () => {
                         <img src={PaulImage} />
                         <h3 className="text-center mt-4">~ Keyboards ~ <br/> Paul</h3>
                     </div>
+                    <div className="d-flex justify-content-center align-items-center flex-column pt-5 mt-5">
+                        <img src={} />
+                        <h3 className="text-center mt-4">~ Lead Vocals/ Backing Vocals ~ <br/> Vanessa</h3>
+                    </div>
                     <h3 className="pt-5 mt-5">Where we've performed</h3>
                     <ul class="list-unstyled">
                         <li>South Shore Bar & Grill - Etobicoke</li>
