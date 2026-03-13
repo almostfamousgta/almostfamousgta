@@ -35,8 +35,16 @@ const imagePerRow = 8;
 const Homepage = () => {
 	const gigs = [
 		{
+			heading: "Timothy's Pub",
+			subHeading: "",
+			phone: "",
+			address: "",
+			description: "Show starts at 3:00 PM",
+			image: "/assets/9c27dab5c9566cac7127.jpg",
+			date: "2026-03-14"
+		},{
 			heading:"Royal Canadian Legion, Branch 101",
-			heading:"Cuchulainn’s Irish Pub",
+			heading:"Cuchulainn's Irish Pub",
 			subHeading: "Streetsville",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
@@ -59,203 +67,9 @@ const Homepage = () => {
 			image: "/assets/4f18dc8758dfa5d6e376.png",
 			description: "Show at 7:00 PM",
 			date: "2026-01-30"
-		},{
-			heading:"Royal Canadian Legion, Branch 101",
-			address: "3850 Lake Shore Blvd W, Etobicoke, ON M8W 1R3",
-			phone: "(416) 255-4381",
-			subHeading: "Toronto",
-			image: "/assets/4f18dc8758dfa5d6e376.png",
-			description: "Show at 7:00 PM",
-			date: "2025-12-05"
-		},{
-			heading: "Private Party",
-			subHeading: "Mississauga",
-			phone: " ",
-			address: " ",
-			description: " ",
-			image: "/assets/9c27dab5c9566cac7127.jpg",
-			date: "2025-11-08"
-		},{
-			heading: "South Shore Bar & Grill",
-			subHeading: "Toronto",
-			phone: "(416) 704-1820",
-			address: "264 Browns Line, Toronto, ON, Canada",
-			description: "Show starts at 9:00 PM",
-			image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
-			date: "2025-10-17"
 		},
 		{
-			heading:"Royal Canadian Legion, Branch 101",
-			address: "3850 Lake Shore Blvd W, Etobicoke, ON M8W 1R3",
-			phone: "(416) 255-4381",
-			subHeading: "Toronto",
-			image: "/assets/4f18dc8758dfa5d6e376.png",
-			description: "Show at 7:00 PM",
-			date: "2025-10-03"
-		},
-			{
-			heading: "SMOKESHOW BBQ & BREW",
-			subHeading: "Toronto",
-			phone: "(416) 901-7469",
-			address: "744 Mt Pleasant Rd, Toronto, Ontario, M4S 2N6",
-			image: "/assets/f7c281b23f955ec3cb34.png",
-			description: "Show starts at 8:00 PM",
-			date: "2025-10-09"
-		},
-		{
-			heading:"Cuchulainn’s Irish Pub",
-			subHeading: "Streetsville",
-			phone: "(905) 821-3790",
-			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
-			description: "Show starts at 9:00 PM",
-			image: "/assets/84eb8df840a46d6450c0.jpg",
-			date: "2025-12-12"
-		},
-		{
-			heading: "The BLK Swan",
-			subHeading: "Burlington",
-			phone: " ",
-			address: "4040 Palladium Way, Burlington, ON, Canada",
-			description: "Show starts at 8:00 PM - 11:00 PM",
-			image: "/assets/2f1ab9de09d468ce74c5.png",
-			date: "2025-09-26"
-		},{
-			heading:"Cuchulainn’s Irish Pub",
-			subHeading: "Streetsville",
-			phone: "(905) 821-3790",
-			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
-			description: "Show starts at 9:00 PM",
-			image: "/assets/84eb8df840a46d6450c0.jpg",
-			date: "2025-07-11"
-		},
-		{
-			heading:"Cuchulainn’s Irish Pub",
-			subHeading: "Streetsville",
-			phone: "(905) 821-3790",
-			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
-			description: "Show starts at 9:00 PM",
-			image: "/assets/84eb8df840a46d6450c0.jpg",
-			date: "2025-09-05"
-		},
-		{
-			heading:"Royal Canadian Legion, Branch 101",
-			address: "3850 Lake Shore Blvd W, Etobicoke, ON M8W 1R3",
-			phone: "(416) 255-4381",
-			subHeading: "Toronto",
-			image: "/assets/4f18dc8758dfa5d6e376.png",
-			description: "Show at 7:00 PM",
-			date: "2025-08-08"
-		},
-		{
-			heading: "The BLK Swan",
-			subHeading: "Burlington",
-			phone: " ",
-			address: "4040 Palladium Way, Burlington, ON, Canada",
-			description: "Show starts at 8:00 PM - 11:00 PM",
-			image: "/assets/2f1ab9de09d468ce74c5.png",
-			date: "2025-08-01"
-		},
-		{
-			heading: "Private Party",
-			subHeading: "Burlington",
-			phone: " ",
-			address: " ",
-			description: " ",
-			image: "/assets/9c27dab5c9566cac7127.jpg",
-			date: "2025-05-24"
-		},
-		{
-			heading: "South Shore Bar & Grill",
-			subHeading: "Toronto",
-			phone: "(416) 704-1820",
-			address: "264 Browns Line, Toronto, ON, Canada",
-			description: "Show starts at 9:00 PM",
-			image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
-			date: "2025-08-15"
-		},
-		{
-			heading: "SMOKESHOW BBQ & BREW",
-			subHeading: "Toronto",
-			phone: "(416) 901-7469",
-			address: "744 Mt Pleasant Rd, Toronto, Ontario, M4S 2N6",
-			image: "/assets/f7c281b23f955ec3cb34.png",
-			description: "Show starts at 8:00 PM",
-			date: "2025-10-30"
-		},
-		{
-			heading: "Archibald's Pub",
-			subHeading: "Richmond Hill",
-			phone: "(905) 889-0235",
-			address: "8950 Yonge St, Richmond Hill, Ontario, L4C 6Z7",
-			description: "Show from 10:00 PM - 1:00 AM",
-			image: "/assets/e168a5d6dca0a208c4f8.jpg",
-			date: "2025-06-14"
-		},
-		{
-			heading: "South Shore Bar & Grill",
-			subHeading: "Toronto",
-			phone: "(416) 704-1820",
-			address: "264 Browns Line, Toronto, ON, Canada, Ontario",
-			description: "Show starts at 9:00 PM",
-			image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
-			date: "2025-05-30"
-		},
-		{
-			heading:"Cuchulainn’s Irish Pub",
-			subHeading: "Streetsville",
-			phone: "(905) 821-3790",
-			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
-			description: "Show starts at 9:00 PM",
-			image: "/assets/84eb8df840a46d6450c0.jpg",
-			date: "2025-05-16"
-		},
-		{
-			heading:"Cuchulainn’s Irish Pub",
-			subHeading: "Streetsville",
-			phone: "(905) 821-3790",
-			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
-			description: "Show starts at 9:00 PM",
-			image: "/assets/84eb8df840a46d6450c0.jpg",
-			date: "2025-03-21"
-		},
-		{
-			heading: "Carrigan Arms",
-			subHeading: "Burlington",
-			phone: "(905) 332-6131",
-			address: "2025 Upper Middle Road, Burlington, ON, Canada, Ontario",
-			description: "Show starts at 8:00 PM",
-			image: "/assets/85b9bfaa51e7d849391d.JPG",
-			date: "2025-03-01"
-		},
-		{
-			heading:"Royal Canadian Legion, Branch 101",
-			address: "3850 Lake Shore Blvd W, Etobicoke, ON M8W 1R3",
-			phone: "(416) 255-4381",
-			subHeading: "Toronto",
-			image: "/assets/4f18dc8758dfa5d6e376.png",
-			description: "Show at 7:00 PM",
-			date: "2025-02-28"
-		},
-		{
-			heading: "Archibald's Pub",
-			subHeading: "Richmond Hill",
-			phone: "(905) 889-0235",
-			address: "8950 Yonge St, Richmond Hill, Ontario, L4C 6Z7",
-			description: "Show from 10:00 PM - 1:00 AM",
-			image: "/assets/e168a5d6dca0a208c4f8.jpg",
-			date: "2025-02-08"
-		},
-		{
-			heading: "South Shore Bar & Grill",
-			subHeading: "Toronto",
-			phone: "(416) 704-1820",
-			address: "264 Browns Line, Toronto, ON, Canada, Ontario",
-			description: "Show starts at 9:00 PM",
-			image: "/assets/8b6b7ecf7a7b323a4a21.jpeg",
-			date: "2025-04-25"
-		},
-		{
-			heading:"Cuchulainn’s Irish Pub",
+			heading:"Cuchulainn's Irish Pub",
 			subHeading: "Streetsville",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
@@ -282,8 +96,8 @@ const Homepage = () => {
 			date: "2025-01-17"
 		},
 		{
-			heading:"Cuchulainn’s Irish Pub",
-			subHeading: "Cuchulainn’s Irish Pub, No cover",
+			heading:"Cuchulainn's Irish Pub",
+			subHeading: "Cuchulainn's Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
 			description: "Show starts at 9:00 PM",
@@ -306,8 +120,8 @@ const Homepage = () => {
 			date: "2024-09-28"
 		},
 		{
-			heading:"Cuchulainn’s Irish Pub",
-			subHeading: "Cuchulainn’s Irish Pub, No cover",
+			heading:"Cuchulainn's Irish Pub",
+			subHeading: "Cuchulainn's Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
 			description: "Show starts at 9:00 PM",
@@ -342,8 +156,8 @@ const Homepage = () => {
 			date: "2024-07-19"
 		},
 		{
-			heading:"Cuchulainn’s Irish Pub",
-			subHeading: "Cuchulainn’s Irish Pub, No cover",
+			heading:"Cuchulainn's Irish Pub",
+			subHeading: "Cuchulainn's Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
 			description: "Show starts at 9:00 PM",
@@ -474,8 +288,8 @@ const Homepage = () => {
 			date: "2022-08-26"
 		},
 		{
-			heading:"Oscar’s Roadhouse",
-			subHeading:"Oscar’s Roadhouse Bar & Grill, No cover",
+			heading:"Oscar's Roadhouse",
+			subHeading:"Oscar's Roadhouse Bar & Grill, No cover",
 			phone:"(905) 799-1304",
 			address:"1785 Queen St East, Brampton",
 			description:"Show starts at 9:00 PM",
@@ -483,7 +297,7 @@ const Homepage = () => {
 			date: "2022-08-05"
 		},
 		{
-			heading:"Honest Lawyer – Fennell",
+			heading:"Honest Lawyer - Fennell",
 			subHeading: "Honest Lawyer (Fennell), No cover",
 			phone: "(289) 674-1080",
 			address: "1115 Fennell Ave East, Hamilton",
@@ -492,8 +306,8 @@ const Homepage = () => {
 			date: "2022-01-16"
 		},
 		{
-			heading:"Cuchulainn’s Irish Pub",
-			subHeading: "Cuchulainn’s Irish Pub, No cover",
+			heading:"Cuchulainn's Irish Pub",
+			subHeading: "Cuchulainn's Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
 			description: "Show starts at 9:30 PM",
@@ -510,8 +324,8 @@ const Homepage = () => {
 			date: "2020-02-08"
 		},
 		{
-			heading:"Cuchulainn’s Irish Pub",
-			subHeading: "Cuchulainn’s Irish Pub, No cover",
+			heading:"Cuchulainn's Irish Pub",
+			subHeading: "Cuchulainn's Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
 			description: "Show starts at 9:30 PM",
@@ -519,8 +333,8 @@ const Homepage = () => {
 			date: "2020-01-04"
 		},
 		{
-			heading:"Cuchulainn’s Irish Pub",
-			subHeading: "Cuchulainn’s Irish Pub, No cover",
+			heading:"Cuchulainn's Irish Pub",
+			subHeading: "Cuchulainn's Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
 			description: "Show starts at 9:00 PM",
@@ -528,7 +342,7 @@ const Homepage = () => {
 			date: "2019-12-14"
 		},
 		{
-			heading:"Dakota’s Sports Bar & Grill",
+			heading:"Dakota's Sports Bar & Grill",
 			subHeading: "Dakota's sports bar, $5 Cover",
 			address: "2814 Lake Shore Blvd, W Unit 2, Toronto, ON",
 			description: "Show starts at 9:00 PM",
@@ -536,8 +350,8 @@ const Homepage = () => {
 			date: "2019-11-16"
 		},
 		{
-			heading:"Cuchulainn’s Irish Pub",
-			subHeading: "Cuchulainn’s Irish Pub, No cover",
+			heading:"Cuchulainn's Irish Pub",
+			subHeading: "Cuchulainn's Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
 			description: "Show starts at 9:00 PM",
@@ -545,8 +359,8 @@ const Homepage = () => {
 			date: "2019-11-02"
 		},
 		{
-			heading:"Cuchulainn’s Irish Pub",
-			subHeading: "Cuchulainn’s Irish Pub, No cover",
+			heading:"Cuchulainn's Irish Pub",
+			subHeading: "Cuchulainn's Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
 			description: "Show starts at 9:00 PM",
@@ -554,8 +368,8 @@ const Homepage = () => {
 			date: "2019-10-05"
 		},
 		{
-			heading:"Cuchulainn’s Irish Pub",
-			subHeading: "Cuchulainn’s Irish Pub, No cover",
+			heading:"Cuchulainn's Irish Pub",
+			subHeading: "Cuchulainn's Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
 			description: "Show starts at 9:00 PM",
@@ -563,8 +377,8 @@ const Homepage = () => {
 			date: "2019-09-07"
 		},
 		{
-			heading:"Cuchulainn’s Irish Pub",
-			subHeading: "Cuchulainn’s Irish Pub, No cover",
+			heading:"Cuchulainn's Irish Pub",
+			subHeading: "Cuchulainn's Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
 			description: "Show starts at 9:00 PM",
@@ -573,14 +387,14 @@ const Homepage = () => {
 		},
 		{
 			heading:"Rock Express with Dinner/Dance",
-			subHeading: "Doors open 5:30pm – Show starts at 6:00pm – Dinner at 7:00pm",
+			subHeading: "Doors open 5:30pm - Show starts at 6:00pm - Dinner at 7:00pm",
 			address: "Royal Canadian Legion, Branch 101",
 			description: "$35 Advanced $40 at the door, Ticket information",
 			image: "/assets/4f18dc8758dfa5d6e376.png",
 			date: "2019-08-10"
 		},
 		{
-			heading:"Dakota’s Sports Bar & Grill",
+			heading:"Dakota's Sports Bar & Grill",
 			subHeading: "Dakota's sports bar, $5 Cover",
 			address: "2814 Lake Shore Blvd, W Unit 2, Toronto, ON",
 			description: "Show starts at 9:00 PM",
@@ -621,7 +435,7 @@ const Homepage = () => {
 			date: "2018-01-27"
 		},
 		{
-			heading:"Cuchulainn’s Irish Pub, Charity Event",
+			heading:"Cuchulainn's Irish Pub, Charity Event",
 			subHeading: "Other acts: The Groove Co, Ryan Dornan, Luke Reece, Poetry Slam",
 			address: "158 Queen St South, Mississauga, ON",
 			description: "Event starts at 8:00 PM. We go on at 10:30 PM",
@@ -680,7 +494,7 @@ const Homepage = () => {
 					);
 				})}
 			</section>
-			
+
 			<hr className="container px-0 bg-white" />
 			<section className="container py-5">
 				<h2 className="text-center afg-h1 mb-5 pb-5">Recent Performances</h2>
